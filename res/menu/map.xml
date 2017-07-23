@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/action_nav"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/title_activity_nav"/>
+    
+    <item
+        android:id="@+id/action_menu_setnormal"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/title_activity_normal"/>
+    
+    <item
+        android:id="@+id/action_menu_setsatellite"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/title_activity_satellite"/>
+    
+    <item
+        android:id="@+id/action_menu_sethybrid"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/title_activity_hybrid"/>
+
+</menu>

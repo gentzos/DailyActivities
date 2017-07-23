@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="example_img">Image</string>
+    <string name="example_txt">Example Text</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_cancel">Cancel</string>
+
+    <!-- Strings related to main app -->
+    <string name="app_name">Daily Activities</string>
+    <string name="action_signin">Sign in</string>
+    <string name="action_signout">Sign out</string>
+    <string name="title_activity_station">StationActivity</string>
+
+    <!-- Strings related to Stations -->
+    <string name="title_activity_gas_station">Gas Stations</string>
+    <string name="action_nearest_gas_station">Nearest Gas Station</string>
+    <string name="title_activity_supermarket">Supermarket</string>
+    <string name="title_activity_station_map">Show Map</string>
+
+    <!-- Strings related to Map -->
+    <string name="title_activity_nav">Navigate</string>
+    <string name="title_activity_normal">Normal Mode</string>
+    <string name="title_activity_satellite">Satellite Mode</string>
+    <string name="title_activity_hybrid">Hybrid Mode</string>
+    <string name="action_yes">Yes</string>
+    <string name="action_no">No</string>
+    <string name="action_ok">OK</string>
+    <string name="action_txt">You have appointments</string>
+    <string name="action_waiting_txt">Waiting for current location.</string>
+    <string name="action_last_pos">Use last known position</string>
+    <string name="title_refresh">Refresh</string>
+    <string name="title_activity_map">MapActivity</string>
+
+    <!-- Strings related to Appointments -->
+    <string name="title_activity_appointment">Appointments</string>
+    <string name="title_activity_set_appointment">SetAppointmentActivity</string>
+    <string name="action_plus">+</string>
+    <string name="action_done">Done</string>
+    <string name="action_dlt">Delete Appointment</string>
+    <string name="prompt_subject">Subject</string>
+    <string name="prompt_description">Description</string>
+    <string name="prompt_location">Location</string>
+    <string name="title_when">WHEN</string>
+    <string name="title_start">START</string>
+    <string name="title_end">END</string>
+    <string name="error_invalid_year">Invalid Year</string>
+    <string name="error_invalid_month">Invalid Month</string>
+    <string name="error_invalid_day">Invalid Day</string>
+    <string name="error_invalid_start_hour">Invalid Start Hour</string>
+    <string name="error_invalid_start_hour2">There is another appointment for the next 30 minutes, please change the start hour.</string>
+
+    <!-- Strings related to login, forgot password & register -->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_username">This username is too short</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="action_rst">Reset</string>
+    <string name="prompt_rstemail">Email</string>
+    <string name="action_txt_reset">Enter your e-mail and a recovery e-mail will be sent to you, see it for more details.</string>
+    <string name="error_dontexist">This E-mail does not exist!</string>
+
+    <!-- Strings related to login -->
+    <string name="title_activity_signin">Sign in</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="login_progress_signing_in">Signing in&#8230;</string>
+    <string name="error_incorrect">Incorrect username or password</string>
+
+    <!-- Strings related to register -->
+    <string name="rqrd_fields">All fields with * are required.</string>
+    <string name="title_activity_register">Register</string>
+    <string name="prompt_email">*Email</string>
+    <string name="prompt_username_reg">*Username</string>
+    <string name="prompt_password_reg">*Password</string>
+    <string name="prompt_cfpassword">*Confirm Password</string>
+    <string name="prompt_fname">*First Name</string>
+    <string name="prompt_lname">*Last Name</string>
+    <string name="prompt_address">Address</string>
+    <string name="prompt_pnumber">Phone Number</string>
+    <string name="prompt_crdtcard">Credit Card Number</string>
+    <string name="action_sign_up_short">Sign up</string>
+    <string name="register_progress_signing_up">Signing up&#8230;</string>
+    <string name="error_incorrect_email">This email is incorrect</string>
+    <string name="error_invalid_email">This e-mail address is invalid</string>
+    <string name="error_invalid_pnumber">This phone number is not valid</string>
+    <string name="error_invalid_crdtcard">This credit card number is not valid</string>
+    <string name="error_registered_username">Username already exists. Please choose another one.</string>
+    <string name="error_not_match_password">This password does not match</string>
+    <string name="error_registered_email">This e-mail is already registered</string>
+    <string name="action_sign_up">Sign Up</string>
+    
+    <!-- Strings related to account -->
+    <string name="title_activity_my_account">My Account</string>
+    <string name="title_myac_section1">Details</string>
+    <string name="title_myac_section2">Edit Account</string>
+    <string name="acc_fname">First Name:</string>
+    <string name="acc_lname">Last Name:</string>
+    <string name="acc_address">Address:</string>
+    <string name="acc_pnumber">Phone Number:</string>
+    <string name="acc_crdtcard">Credit Card Number:</string>
+    <string name="acc_email">E-mail:</string>
+    <string name="acc_uname">Username:</string>
+    <string name="acc_crtat">Created At:</string>
+    <string name="action_chg_pass">Change Password</string>
+    <string name="action_chg_adrs">Change Address</string>
+    <string name="action_chg_pnum">Change Phone Number</string>
+    <string name="action_chg_crdt">Change Credit Card Number</string>
+    <string name="action_chg">Change</string>
+    <string name="prompt_npassword">New Password</string>
+    <string name="prompt_oldpassword">Old Password</string>
+    <string name="prompt_cfmpassword">Confirm Password</string>
+    <string name="prompt_naddress">New Address</string>
+    <string name="prompt_npnumber">New Phone Number</string>
+    <string name="prompt_ncrdt">New Credit Card Number</string>
+    <string name="error_incorrect1">Incorrect password</string>
+</resources>

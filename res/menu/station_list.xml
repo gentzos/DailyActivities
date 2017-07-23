@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:showAsAction="ifRoom"
+        android:title="@string/title_refresh"/>
+    <item
+        android:id="@+id/action_station_list"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/title_activity_station_map"/>
+
+</menu>
